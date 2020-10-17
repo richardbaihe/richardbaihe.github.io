@@ -2,7 +2,7 @@ favicon: /img/favicon.png
 # Change to your profile picture
 avatar: /img/avatar.jpeg
 # if author sets in hexo_config, this string doesn't work
-author: 'He Bai'
+author: 'He Bai (Richard)'
 
 since: 2020
 
@@ -12,7 +12,7 @@ since: 2020
 menu:
   About: /#About
   Publications: /#Publications
-  Blog: https://phower.me
+  # Blog: https://phower.me
 
 # flink picture will load if avator link calls on error
 loading_bg:
@@ -24,14 +24,14 @@ loading_bg:
 social:
   enable: true
 social_links:
-  fab fa-twitter: /
+  fab fa-twitter:  https://twitter.com/richard_baihe
   #fab fa-facebook-square: /
   #fab fa-stack-overflow: /
-  fab fa-linkedin: /
+  fab fa-linkedin: https://www.linkedin.com/in/he-bai-5356b1142/
   #fab fa-weibo: /
   #fab fa-weixin: /
   #fab fa-qq: /
-  fas fa-envelope: / #E-mail
+  fas fa-envelope: mailto:[he.bai@uwaterloo.ca] #E-mail
   #fas fa-rss: /  #rss
 
 # Additional social_links，额外添加自定义链接，可显示链接名称
