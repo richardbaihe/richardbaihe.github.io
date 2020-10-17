@@ -22,7 +22,7 @@ Peng Shi, **He Bai**, Jimmy Lin. Cross-Lingual Training of Neural Models for Doc
 
 **He Bai**, Peng Shi, Jimmy Lin, Luchen Tan, Kun Xiong, Wen Gao, Jie Liu, Ming Li. Semantics of the Unwritten: The Effect of End of Paragraph and Sequence Tokens on Text Generation. arXiv preprint arXiv:2004.02251. (under review) [[paper]](https://arxiv.org/pdf/2004.02251.pdf) [codes]
 
-##2019
+## 2019
 
 **He Bai**, Yu Zhou, Jiajun Zhang and Chengqing Zong. Memory Consolidation for Contextual Spoken Language Understanding with Dialogue Logistic Inference. ACL 2019. (short paper) [[paper]](https://arxiv.org/pdf/1906.01788.pdf) [[codes]](https://github.com/richardbaihe/conslu)
 
