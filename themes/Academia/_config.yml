@@ -45,7 +45,7 @@ e_social_links:
 # CV download link
 cv_dl:
   enable: true
-  dir: /attaches/CV.pdf
+  dir: /attaches/cv_tex/CV.pdf
   description: My Detail CV.
 
 # Box-shadow

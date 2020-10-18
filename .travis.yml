@@ -18,9 +18,14 @@ before_install:
 install:
   - npm install # 安装依赖
 
+services: docker
+
 script: # 执行脚本，清除缓存，生成静态文件
   - hexo clean
   - hexo generate
+  - wget https://raw.githubusercontent.com/blang/latex-docker/master/latexdockercmd.sh
+  - chmod +x latexdockercmd.sh
+  - “./latexdockercmd.sh latexmk -xelatex -interaction=nonstopmode -halt-on-error CV.tex -outdir=./_build”
 
 deploy:
   provider: pages
