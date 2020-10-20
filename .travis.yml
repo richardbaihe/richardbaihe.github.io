@@ -21,11 +21,11 @@ install:
 services: docker
 
 script: # 执行脚本，清除缓存，生成静态文件
-  - hexo clean
-  - hexo generate
   - wget https://raw.githubusercontent.com/blang/latex-docker/master/latexdockercmd.sh
   - chmod +x latexdockercmd.sh
-  - “./latexdockercmd.sh latexmk -xelatex -interaction=nonstopmode -halt-on-error ./themes/Academia/source/attaches/cv_tex/CV.tex -outdir=./themes/Academia/source/attaches/cv_tex/”
+  - “./latexdockercmd.sh latexmk -xelatex -interaction=nonstopmode -halt-on-error ./themes/Academia/source/attaches/cv_tex/CV.tex -outdir=./themes/Academia/source/attaches/cv_tex”
+  - hexo clean
+  - hexo generate
 
 deploy:
   provider: pages
