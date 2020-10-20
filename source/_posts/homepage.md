@@ -6,7 +6,7 @@ academia: true
 ---
 # About
 
-I am a second year PhD. student working with [Ming Li](https://scholar.google.ca/citations?user=oGgPXFEAAAAJ&hl=en) at University of Waterloo . 
+I am a second-year Ph.D. student working with [Ming Li](https://scholar.google.ca/citations?user=oGgPXFEAAAAJ&hl=en) at University of Waterloo . 
 
 The focus of my research lies on language modeling and text representation learning. 
 

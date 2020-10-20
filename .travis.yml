@@ -25,7 +25,7 @@ script: # 执行脚本，清除缓存，生成静态文件
   - hexo generate
   - wget https://raw.githubusercontent.com/blang/latex-docker/master/latexdockercmd.sh
   - chmod +x latexdockercmd.sh
-  - “./latexdockercmd.sh latexmk -xelatex -interaction=nonstopmode -halt-on-error ./themes/Academia/source/attaches/cv_tex/CV.tex -outdir=./_build”
+  - “./latexdockercmd.sh latexmk -xelatex -interaction=nonstopmode -halt-on-error ./themes/Academia/source/attaches/cv_tex/CV.tex -outdir=./themes/Academia/source/attaches/cv_tex/”
 
 deploy:
   provider: pages
