@@ -16,7 +16,7 @@ Before that, I worked on spoken language understanding for task-oriented dialogu
 
 ### 2020
 
-Peng Shi, **He Bai**, Jimmy Lin. Cross-Lingual Training of Neural Models for Document Ranking. EMNLP Findings 2020. (short paper) [pdf] [codes]
+Peng Shi, **He Bai**, Jimmy Lin. Cross-Lingual Training of Neural Models for Document Ranking. EMNLP Findings 2020. (short paper) [[pdf]](https://www.aclweb.org/anthology/2020.findings-emnlp.249/) [[codes]](https://github.com/Impavidity/ cross- lingual- doc- ranking)
 
 **He Bai**, Peng Shi, Jimmy Lin, Luchen Tan, Kun Xiong, Wen Gao, Ming Li. Segatron: Segment-awareTransformer for Language Modeling and Understanding. arXiv preprint. (under review) [[pdf]](https://openreview.net/pdf?id=WFfUEP9EGLy) [codes]
 
