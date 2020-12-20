@@ -16,9 +16,9 @@ Before that, I worked on spoken language understanding for task-oriented dialogu
 
 ### 2020
 
-Peng Shi, **He Bai**, Jimmy Lin. Cross-Lingual Training of Neural Models for Document Ranking. EMNLP Findings 2020. (short paper) [[pdf]](https://www.aclweb.org/anthology/2020.findings-emnlp.249/) [[codes]](https://github.com/Impavidity/ cross- lingual- doc- ranking)
+Peng Shi, **He Bai**, Jimmy Lin. Cross-Lingual Training of Neural Models for Document Ranking. EMNLP Findings 2020. (short paper) [[pdf]](https://www.aclweb.org/anthology/2020.findings-emnlp.249/) [[codes]](https://github.com/Impavidity/cross-lingual-doc-ranking)
 
-**He Bai**, Peng Shi, Jimmy Lin, Luchen Tan, Kun Xiong, Wen Gao, Ming Li. Segatron: Segment-awareTransformer for Language Modeling and Understanding. arXiv preprint. (under review) [[pdf]](https://openreview.net/pdf?id=WFfUEP9EGLy) [codes]
+**He Bai**, Peng Shi, Jimmy Lin, Luchen Tan, Kun Xiong, Wen Gao, Ming Li. Segatron: Segment-awareTransformer for Language Modeling and Understanding. AAAI 2021. (full paper) [[pdf]](https://arxiv.org/abs/2004.14996) [[codes]](https://github.com/rsvp-ai/segatron_aaai)
 
 **He Bai**, Peng Shi, Jimmy Lin, Luchen Tan, Kun Xiong, Wen Gao, Jie Liu, Ming Li. Semantics of the Unwritten: The Effect of End of Paragraph and Sequence Tokens on Text Generation. arXiv preprint arXiv:2004.02251. (under review) [[pdf]](https://arxiv.org/pdf/2004.02251.pdf) [codes]
 
@@ -28,7 +28,7 @@ Peng Shi, **He Bai**, Jimmy Lin. Cross-Lingual Training of Neural Models for Doc
 
 ### 2018
 
-**He Bai**, Yu Zhou, Jiajun Zhang, Liang Zhao, Mei-Yuh Hwang and Chengqing Zong. Source Critical Reinforcement Learning for Transferring Spoken Language Understanding to a New Language. COLING 2020. (long paper) [[pdf]](https://arxiv.org/pdf/1808.06167.pdf) [codes] 
+**He Bai**, Yu Zhou, Jiajun Zhang, Liang Zhao, Mei-Yuh Hwang and Chengqing Zong. Source Critical Reinforcement Learning for Transferring Spoken Language Understanding to a New Language. COLING 2018. (full paper) [[pdf]](https://arxiv.org/pdf/1808.06167.pdf) [codes] 
 
 
 
