@@ -20,6 +20,8 @@ Peng Shi, Rui Zhang, **He Bai**, Jimmy Lin. Cross-Lingual Training with Dense Re
 
 **He Bai**, Peng Shi, Jimmy Lin, Luchen Tan, Kun Xiong, Wen Gao, Jie Liu, Ming Li. Semantics of the Unwritten: The Effect of End of Paragraph and Sequence Tokens on Text Generation. ACL-SRW 2021 (workshop paper) [[pdf]](https://arxiv.org/pdf/2004.02251.pdf) [[codes]](https://github.com/rsvp- ai/semantic_ unwritten).
 
+Minghan Li, **He Bai**, Luchen Tan, Kun Xiong, Jimmy Lin. Latte-Mix: Measuring Sentence Semantic Similarity with Latent Categorical Mixtures. arXiv preprint arXiv:2010.11351. (under review) [[pdf]](https://arxiv.org/pdf/2010.11351.pdf) [codes]
+
 **He Bai**, Peng Shi, Jimmy Lin, Yuqing Xie, Luchen Tan, Kun Xiong, Wen Gao, Ming Li. Segatron: Segment-awareTransformer for Language Modeling and Understanding. AAAI 2021. (full paper) [[pdf]](https://arxiv.org/abs/2004.14996) [[codes]](https://github.com/rsvp-ai/segatron_aaai)
 
 Peng Shi, **He Bai**, Jimmy Lin. Cross-Lingual Training of Neural Models for Document Ranking. EMNLP Findings 2020. (short paper) [[pdf]](https://www.aclweb.org/anthology/2020.findings-emnlp.249/) [[codes]](https://github.com/Impavidity/cross-lingual-doc-ranking)
