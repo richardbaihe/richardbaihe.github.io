@@ -13,6 +13,7 @@ The focus of my research lies on natural language processing, including both tex
 Before that, I worked on spoken language understanding for task-oriented dialogue system with Yu Zhou, [Jiajun Zhang](http://www.nlpr.ia.ac.cn/cip/jjzhang.htm), and [Chengqing Zong](http://www.nlpr.ia.ac.cn/cip/english/zong.htm) at University of the Chinese Academy of Sciences.
 
 # Publications
+**He Bai**, Renjie Zheng, Junkun Chen, Xintong Li, Mingbo Ma, Liang Huang. A3T: Alignment-Aware Acoustic and Text Pretraining for Speech Synthesis and Editing.  ICML 2022 (full paper) [[pdf]](https://arxiv.org/abs/2203.09690).
 
 **He Bai**, Tong Wang, Alessandro Sordoni, Peng Shi. Better Language Model with Hypernym Class Prediction. ACL 2022 (full paper) [[pdf]](https://openreview.net/pdf?id=YjZH6EpuSY) [[codes]](https://github.com/richardbaihe/robustLM).
 
