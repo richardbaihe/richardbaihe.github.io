@@ -6,14 +6,14 @@ academia: true
 ---
 # About
 
-I am a third-year Ph.D. student working with [Ming Li](https://scholar.google.ca/citations?user=oGgPXFEAAAAJ&hl=en) at University of Waterloo . 
+I am a third-year Ph.D. student researching Natural Language Processing at the University of Waterloo. I work with [Ming Li](https://scholar.google.ca/citations?user=oGgPXFEAAAAJ&hl=en) on language modeling and unsupervised methods (See CV for details).
 
-The focus of my research lies on natural language processing, including both text and speech, and what fascinates me most is the language sequence modeling problem.
+In general, my research investigates how to represent languages for computing. Lately, I am obsessed with language modeling which represents language via neural computing for its unsupervised and task-agnostic nature.
 
-Before that, I worked on spoken language understanding for task-oriented dialogue system with Yu Zhou, [Jiajun Zhang](http://www.nlpr.ia.ac.cn/cip/jjzhang.htm), and [Chengqing Zong](http://www.nlpr.ia.ac.cn/cip/english/zong.htm) at University of the Chinese Academy of Sciences.
+My thesis concerns modeling text and speech sequences to achieve lower perplexity, better generation, and benefit downstream language tasks; specifically, we address the problem of modeling text and text-speech sequences with Transformer-based language models. In the past two years, I have proposed three new techniques that improve sequence modeling in different ways: [Segment-Aware Language Modeling](https://arxiv.org/abs/2004.14996), [Hypernym-Instructed Language Modeling](arxiv.org/abs/2203.10692), and [Alignment-Aware Acoustic and Text Modeling](arxiv.org/abs/2203.09690). I am also interested in multilingual NLP.
 
 # Publications
-**He Bai**, Renjie Zheng, Junkun Chen, Xintong Li, Mingbo Ma, Liang Huang. A3T: Alignment-Aware Acoustic and Text Pretraining for Speech Synthesis and Editing.  ICML 2022 (full paper) [[pdf]](https://arxiv.org/abs/2203.09690).
+**He Bai**, Renjie Zheng, Junkun Chen, Xintong Li, Mingbo Ma, Liang Huang. A3T: Alignment-Aware Acoustic and Text Pretraining for Speech Synthesis and Editing.  ICML 2022 (full paper) [[pdf]](https://arxiv.org/abs/2203.09690)[codes released after camera-ready].
 
 **He Bai**, Tong Wang, Alessandro Sordoni, Peng Shi. Better Language Model with Hypernym Class Prediction. ACL 2022 (full paper) [[pdf]](https://openreview.net/pdf?id=YjZH6EpuSY) [[codes]](https://github.com/richardbaihe/robustLM).
 
