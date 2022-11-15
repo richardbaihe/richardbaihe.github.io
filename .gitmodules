@@ -1,0 +1,3 @@
+[submodule "themes/Academia/source/attaches/cv"]
+	path = themes/Academia/source/attaches/cv
+	url = git@github.com:richardbaihe/cv.git
