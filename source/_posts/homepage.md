@@ -6,7 +6,7 @@ academia: true
 ---
 # About
 
-I am a final Ph.D. candidate researching Natural Language Processing at the University of Waterloo. I work with [Ming Li](https://scholar.google.ca/citations?user=oGgPXFEAAAAJ&hl=en) on language modeling and unsupervised machine learning methods. Before that, I worked with [Chengqing Zong](https://scholar.google.com.hk/citations?user=l8lvKOQAAAAJ&hl=en) on spoken language understanding during my master's study.
+I am a final year Ph.D. candidate researching Natural Language Processing at the University of Waterloo. I work with [Ming Li](https://scholar.google.ca/citations?user=oGgPXFEAAAAJ&hl=en) on language modeling and unsupervised machine learning methods. Before that, I worked with [Chengqing Zong](https://scholar.google.com.hk/citations?user=l8lvKOQAAAAJ&hl=en) on spoken language understanding during my master's study.
 
 In general, my research investigates how to represent language for computing. Lately, I am obsessed with language modeling which represents language via neural computing for its unsupervised and task-agnostic nature. I am also interested in multilingual problems and acoustic sequence modeling.
 
