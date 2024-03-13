@@ -1,16 +1,27 @@
 ---
 title: homepage
-date: 2020-10-17 01:24:19
+date: 2023-03-23 01:24:19
 tags:
 academia: true
 ---
 # About
 
-I am a final year Ph.D. candidate researching Natural Language Processing at the University of Waterloo. I work with [Ming Li](https://scholar.google.ca/citations?user=oGgPXFEAAAAJ&hl=en) on language modeling and unsupervised machine learning methods. Before that, I worked with [Chengqing Zong](https://scholar.google.com.hk/citations?user=l8lvKOQAAAAJ&hl=en) on spoken language understanding during my master's study.
+I am a Machine Learning Research Scientist at [Apple MLR](https://machinelearning.apple.com/), primarily working on natural language processing and speech generation. 
 
-In general, my research investigates how to represent language for computing. Lately, I am obsessed with language modeling which represents language via neural computing for its unsupervised and task-agnostic nature. I am also interested in multilingual problems and acoustic sequence modeling.
+I received my PhD degree from the University of Waterloo, under the supervision of [Ming Li](https://scholar.google.ca/citations?user=oGgPXFEAAAAJ&hl=en) on language modeling and unsupervised machine learning. 
+Before that, I worked with [Chengqing Zong](https://scholar.google.com.hk/citations?user=l8lvKOQAAAAJ&hl=en) on spoken language understanding.
 
-My thesis concerns modeling text and speech sequences to achieve lower perplexity, better generation, and benefit downstream language tasks; specifically, we address the problem of modeling text and text-speech sequences with Transformer-based language models. My favorite works during my Ph.D. study are [Segment-Aware Language Modeling](https://arxiv.org/abs/2004.14996), [Hypernym-Instructed Language Modeling](arxiv.org/abs/2203.10692), and [Alignment-Aware Acoustic and Text Modeling](arxiv.org/abs/2203.09690). 
+I have served as a PC member of ACL (2020-2024), EMNLP (2019-2023), ICML (2022-2023), Neurips (2023), ICLR (2023-2024), AAAI (2020), COLING (2020-2024). I received ICML Outstanding Reviewers awards (2022).
+<!-- 
+I am one of the challenge organizers of Embodied AI Workshop in CVPR 2024.  -->
+
+My recent research focuses on below topics:
+- Long-form sequence modeling
+- LLM Factualness and Evaluation
+- Multilingual NLP
+
+<!-- 
+My past works concern modeling text and speech sequences to achieve lower perplexity, better generation, and benefit downstream language tasks; specifically, we address the problem of modeling text and text-speech sequences with Transformer-based language models. My favorite works during my Ph.D. study are [Segment-Aware Language Modeling](https://arxiv.org/abs/2004.14996), [Hypernym-Instructed Language Modeling](arxiv.org/abs/2203.10692), and [Alignment-Aware Acoustic and Text Modeling](arxiv.org/abs/2203.09690).  -->
 
 # Publications
 Xiaoran Fan, Chao Pang, Tian Yuan, **He Bai**, Renjie Zheng, Pengfei Zhu, Shuohuan Wang, Junkun Chen, Zeyu Chen, Liang Huang, Yu Sun, Hua Wu. ERNIE-SAT: Speech and Text Joint Pretraining for Cross-Lingual Multi-Speaker Text-to-Speech. (preprint) [[pdf]](https://arxiv.org/abs/2211.03545)[[code]](https://github.com/PaddlePaddle/PaddleSpeech/tree/develop/examples/aishell3_vctk/ernie_sat)
