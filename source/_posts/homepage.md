@@ -23,7 +23,21 @@ My recent research focuses on below topics:
 <!-- 
 My past works concern modeling text and speech sequences to achieve lower perplexity, better generation, and benefit downstream language tasks; specifically, we address the problem of modeling text and text-speech sequences with Transformer-based language models. My favorite works during my Ph.D. study are [Segment-Aware Language Modeling](https://arxiv.org/abs/2004.14996), [Hypernym-Instructed Language Modeling](arxiv.org/abs/2203.10692), and [Alignment-Aware Acoustic and Text Modeling](arxiv.org/abs/2203.09690).  -->
 
-<!-- # Selected Publications
+# Selected Publications
+
+Y Zhang*, **H Bai***, R Zhang*, J Gu, S Zhai, J Susskind, N Jaitly. How Far Are We from Intelligent Visual Deductive Reasoning? arXiv preprint arXiv:2403.04732. 2024. (*equal)
+
+Z Wu, **H Bai**, A Zhang, J Gu, VG Vydviswaran, N Jaitly, Y Zhang. Divide-or-Conquer? Which Part Should You Distill Your LLM? arXiv preprint arXiv:2402.15000. 2024.
+
+P Maini, S Seto, **H Bai**, D Grangier, Y Zhang, N Jaitly. Rephrasing the Web: A Recipe for Compute and Data-Efficient Language Modeling. arXiv preprint arXiv:2401.16380. 2024.
+
+S Zheng*, **H Bai***, Y Zhang, Y Su, X Niu, N Jaitly. KGLens: A Parameterized Knowledge Graph Solution to Assess What an LLM Does and Doesn't Know. arXiv preprint arXiv:2312.11539. 2023. (*equal)
+
+A Mousavi, X Zhan, **H Bai**, P Shi, T Rekatsinas, B Han, Y Li, J Pound, ... Construction of Paired Knowledge Graph-Text Datasets Informed by Cyclic Evaluation. arXiv preprint arXiv:2309.11669. 2023.
+
+**H Bai**. Novel Methods for Natural Language Modeling and Pretraining. University of Waterloo. 2023.
+
+P Shi, L Song, L Jin, H Mi, **H Bai**, J Lin, D Yu. Cross-lingual Text-to-SQL Semantic Parsing with Representation Mixup. Findings of the Association for Computational Linguistics: EMNLP 2022, 5296-5306. 2022.
 
 
 
@@ -53,4 +67,4 @@ Peng Shi, **He Bai**, Jimmy Lin. Cross-Lingual Training of Neural Models for Doc
 
 
 
- -->
+
