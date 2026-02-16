@@ -1,0 +1,14 @@
+title: Richard's website
+author: Richard He Bai
+description: Academic homepage - Machine Learning Researcher at Apple MLR
+baseurl: ""
+url: "https://richardbaihe.github.io"
+markdown: kramdown
+
+# Social links
+social:
+  twitter: https://twitter.com/richard_baihe
+  linkedin: https://www.linkedin.com/in/he-bai-5356b1142/
+  email: he.bai@uwaterloo.ca
+  scholar: https://scholar.google.com/citations?user=MIcmEaMAAAAJ
+  github: https://github.com/richardbaihe
