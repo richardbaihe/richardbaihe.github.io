@@ -1,0 +1,171 @@
+- date: "2026-04"
+  category: paper
+  title: "Embarrassingly Simple Self-Distillation Improves Code Generation"
+  authors: "Ruixiang Zhang*, <strong>He Bai*</strong>, Huangjie Zheng*, Navdeep Jaitly, Ronan Collobert, Yizhe Zhang*"
+  venue: "Preprint, 2026"
+  note: "*equal contribution"
+  links:
+    - label: pdf
+      url: "https://arxiv.org/abs/2604.01193"
+
+- date: "2026-01"
+  category: paper
+  title: "Closing the Gap Between Text and Speech Understanding in LLMs"
+  authors: "Santiago Cuervo, Skyler Seto, Maureen de Seyssel, <strong>He Bai</strong>, Zijin Gu, Tatiana Likhomanenko, Navdeep Jaitly, Zakaria Aldeneh"
+  venue: "ICLR 2026"
+
+- date: "2025-11"
+  category: paper
+  title: "CLaRa: Bridging Retrieval and Generation with Continuous Latent Reasoning"
+  authors: "Jie He, <strong>He Bai</strong>, Sinead Williamson, Jeff Z. Pan, Navdeep Jaitly, Yizhe Zhang"
+  venue: "Preprint, 2025"
+  links:
+    - label: pdf
+      url: "https://arxiv.org/abs/2511.18659"
+
+- date: "2025"
+  category: paper
+  title: "ChipChat: Low-Latency Cascaded Conversational Agent in MLX"
+  authors: "Tatiana Likhomanenko*, Luke Carlson*, <strong>He Bai*</strong>, Zijin Gu*, Han Tran*, Zakaria Aldeneh*, Yizhe Zhang, Ruixiang Zhang, Huangjie Zheng, Navdeep Jaitly"
+  venue: "IEEE ASRU 2025 (Best Demo)"
+  note: "*equal contribution"
+
+- date: "2025"
+  category: service
+  title: "Workshop Organizer: WideningNLP at EMNLP 2025"
+
+- date: "2025"
+  category: service
+  title: "Workshop Organizer: VLM4RWD at NeurIPS 2025"
+
+- date: "2025"
+  category: service
+  title: "Workshop Organizer: Embodied AI Workshop at CVPR 2025"
+
+- date: "2024"
+  category: paper
+  title: "Rephrasing the Web: A Recipe for Compute and Data-Efficient Language Modeling"
+  authors: "Pratyush Maini, Skyler Seto, <strong>He Bai</strong>, David Grangier, Yizhe Zhang, Navdeep Jaitly"
+  venue: "ACL 2024"
+
+- date: "2024"
+  category: paper
+  title: "Divide-or-Conquer? Which Part Should You Distill Your LLM?"
+  authors: "Zhuofeng Wu, <strong>He Bai</strong>, Aonan Zhang, Jiatao Gu, V.G. Vydiswaran, Navdeep Jaitly, Yizhe Zhang"
+  venue: "EMNLP 2024"
+
+- date: "2024"
+  category: paper
+  title: "How Far Are We from Intelligent Visual Deductive Reasoning?"
+  authors: "Y Zhang*, <strong>H Bai*</strong>, R Zhang*, J Gu, S Zhai, J Susskind, N Jaitly"
+  venue: "COLM 2024"
+  note: "*equal contribution"
+  links:
+    - label: pdf
+      url: "https://arxiv.org/abs/2403.04732"
+    - label: code
+      url: "https://github.com/apple/ml-rpm-bench"
+
+- date: "2024"
+  category: paper
+  title: "KGLens: Towards Efficient and Effective Knowledge Probing of Large Language Models with Knowledge Graphs"
+  authors: "Shangshang Zheng, <strong>He Bai</strong>, Yizhe Zhang, Yi Su, Xiaochuan Niu, Navdeep Jaitly"
+  venue: "ACL 2024 Workshop (KnowLLM)"
+  links:
+    - label: pdf
+      url: "https://arxiv.org/abs/2312.11539"
+
+- date: "2024"
+  category: service
+  title: "Workshop Organizer: Embodied AI Workshop at CVPR 2024"
+
+- date: "2023-02"
+  category: career
+  title: "Joined Apple MLR as Machine Learning Researcher"
+
+- date: "2023-01"
+  category: career
+  title: "PhD Defense at the University of Waterloo"
+  description: "Dissertation: Novel Methods for Natural Language Modeling and Pretraining"
+
+- date: "2022"
+  category: paper
+  title: "XRICL: Cross-lingual Retrieval-Augmented In-Context Learning for Cross-lingual Text-to-SQL Semantic Parsing"
+  authors: "Peng Shi, Rui Zhang, <strong>He Bai</strong>, Jimmy Lin"
+  venue: "Findings of EMNLP 2022"
+  links:
+    - label: pdf
+      url: "https://arxiv.org/abs/2210.13693"
+
+- date: "2022"
+  category: paper
+  title: "A3T: Alignment-Aware Acoustic and Text Pretraining for Speech Synthesis and Editing"
+  authors: "<strong>He Bai*</strong>, Renjie Zheng*, Junkun Chen, Mingbo Ma, Xintong Li, Liang Huang"
+  venue: "ICML 2022 (spotlight)"
+  note: "*equal contribution"
+  links:
+    - label: pdf
+      url: "https://arxiv.org/abs/2203.09690"
+    - label: code
+      url: "https://github.com/richardbaihe/a3t"
+
+- date: "2022"
+  category: paper
+  title: "Better Language Model with Hypernym Class Prediction"
+  authors: "<strong>He Bai</strong>, Tong Wang, Alessandro Sordoni, Peng Shi"
+  venue: "ACL 2022"
+  links:
+    - label: pdf
+      url: "https://openreview.net/pdf?id=YjZH6EpuSY"
+    - label: code
+      url: "https://github.com/richardbaihe/robustLM"
+
+- date: "2022"
+  category: award
+  title: "Outstanding Reviewer Award at ICML 2022"
+
+- date: "2024"
+  category: service
+  title: "Area Chair for ACL Rolling Review"
+
+- date: "2021"
+  category: paper
+  title: "Segatron: Segment-aware Transformer for Language Modeling and Understanding"
+  authors: "<strong>He Bai</strong>, Peng Shi, Jimmy Lin, Yuqing Xie, Luchen Tan, Kun Xiong, Wen Gao, Ming Li"
+  venue: "AAAI 2021"
+  links:
+    - label: pdf
+      url: "https://arxiv.org/abs/2004.14996"
+    - label: code
+      url: "https://github.com/rsvp-ai/segatron_aaai"
+
+- date: "2021"
+  category: paper
+  title: "Cross-Lingual Training with Dense Retrieval for Document Retrieval"
+  authors: "Peng Shi, Rui Zhang, <strong>He Bai</strong>, Jimmy Lin"
+  venue: "Preprint, 2021"
+  links:
+    - label: pdf
+      url: "https://arxiv.org/abs/2109.01628"
+
+- date: "2021"
+  category: paper
+  title: "Semantics of the Unwritten: The Effect of End of Paragraph and Sequence Tokens on Text Generation"
+  authors: "<strong>He Bai</strong>, Peng Shi, Jimmy Lin, Luchen Tan, Kun Xiong, Wen Gao, Jie Liu, Ming Li"
+  venue: "ACL 2021"
+  links:
+    - label: pdf
+      url: "https://arxiv.org/pdf/2004.02251.pdf"
+    - label: code
+      url: "https://github.com/rsvp-ai/semantic_unwritten"
+
+- date: "2019"
+  category: paper
+  title: "Memory Consolidation for Contextual Spoken Language Understanding with Dialogue Logistic Inference"
+  authors: "<strong>He Bai</strong>, Yu Zhou, Jiajun Zhang, Chengqing Zong"
+  venue: "ACL 2019"
+  links:
+    - label: pdf
+      url: "https://arxiv.org/pdf/1906.01788.pdf"
+    - label: code
+      url: "https://github.com/richardbaihe/conslu"
