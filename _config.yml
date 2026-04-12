@@ -1,14 +1,27 @@
 title: Richard's website
 author: Richard He Bai
-description: Academic homepage - Machine Learning Researcher at Apple MLR
+description: Academic homepage - ML Researcher working on RAG and data-efficient LLM training
 baseurl: ""
 url: "https://richardbaihe.github.io"
 markdown: kramdown
 
+# Profile
+avatar: /assets/img/avatar.jpeg
+bio: "Research Scientist at Apple MLR, working on building more capable LLMs through retrieval augmentation and scalable data curation."
+education: >-
+  I completed my PhD in Computer Science at the University of Waterloo,
+  with a dissertation titled
+  "<a href='https://uwspace.uwaterloo.ca/items/7f8262f0-325b-4623-8996-edcd8fdbd780'>Novel Methods for Natural Language Modeling and Pretraining</a>",
+  under the supervision of Professor
+  <a href='https://scholar.google.ca/citations?user=oGgPXFEAAAAJ&hl=en'>Ming Li</a>.
+  Prior to my doctoral studies, I obtained a Master's degree from the Chinese Academy of Sciences,
+  where I began my NLP research journey under the mentorship of Professor
+  <a href='https://scholar.google.com.hk/citations?user=l8lvKOQAAAAJ&hl=en'>Chengqing Zong</a>.
+
 # Social links
 social:
-  twitter: https://twitter.com/richard_baihe
-  linkedin: https://www.linkedin.com/in/he-bai-5356b1142/
   email: he.bai@uwaterloo.ca
   scholar: https://scholar.google.com/citations?user=MIcmEaMAAAAJ
   github: https://github.com/richardbaihe
+  linkedin: https://www.linkedin.com/in/he-bai-5356b1142/
+  twitter: https://twitter.com/richard_baihe
