@@ -1,5 +1,14 @@
 - date: "2026-04"
   category: paper
+  title: "From Past To Path: Masked History Learning for Next-Item Prediction in Generative Recommendation"
+  authors: "Kaiwen Wei, Kejun He, Xiaomian Kang, Jie Zhang, Yuming Yang, Li Jin, Zhenyang Li, Jiang Zhong, <strong>Richard He Bai</strong>, Junnan Zhu"
+  venue: "ACL 2026"
+  links:
+    - label: pdf
+      url: "https://openreview.net/forum?id=VFCUlpdqCG"
+
+- date: "2026-04"
+  category: paper
   title: "Embarrassingly Simple Self-Distillation Improves Code Generation"
   authors: "Ruixiang Zhang*, <strong>He Bai*</strong>, Huangjie Zheng*, Navdeep Jaitly, Ronan Collobert, Yizhe Zhang*"
   venue: "Preprint, 2026"
