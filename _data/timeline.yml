@@ -1,13 +1,4 @@
-- date: "2026-04"
-  category: paper
-  title: "From Past To Path: Masked History Learning for Next-Item Prediction in Generative Recommendation"
-  authors: "Kaiwen Wei, Kejun He, Xiaomian Kang, Jie Zhang, Yuming Yang, Li Jin, Zhenyang Li, Jiang Zhong, <strong>Richard He Bai</strong>, Junnan Zhu"
-  venue: "ACL 2026"
-  links:
-    - label: pdf
-      url: "https://openreview.net/forum?id=VFCUlpdqCG"
-
-- date: "2026-04"
+- date: "2026"
   category: paper
   title: "Embarrassingly Simple Self-Distillation Improves Code Generation"
   authors: "Ruixiang Zhang*, <strong>He Bai*</strong>, Huangjie Zheng*, Navdeep Jaitly, Ronan Collobert, Yizhe Zhang*"
@@ -17,13 +8,7 @@
     - label: pdf
       url: "https://arxiv.org/abs/2604.01193"
 
-- date: "2026-01"
-  category: paper
-  title: "Closing the Gap Between Text and Speech Understanding in LLMs"
-  authors: "Santiago Cuervo, Skyler Seto, Maureen de Seyssel, <strong>He Bai</strong>, Zijin Gu, Tatiana Likhomanenko, Navdeep Jaitly, Zakaria Aldeneh"
-  venue: "ICLR 2026"
-
-- date: "2025-11"
+- date: "2025"
   category: paper
   title: "CLaRa: Bridging Retrieval and Generation with Continuous Latent Reasoning"
   authors: "Jie He, <strong>He Bai</strong>, Sinead Williamson, Jeff Z. Pan, Navdeep Jaitly, Yizhe Zhang"
@@ -31,6 +16,21 @@
   links:
     - label: pdf
       url: "https://arxiv.org/abs/2511.18659"
+
+- date: "2026"
+  category: paper
+  title: "From Past To Path: Masked History Learning for Next-Item Prediction in Generative Recommendation"
+  authors: "Kaiwen Wei, Kejun He, Xiaomian Kang, Jie Zhang, Yuming Yang, Li Jin, Zhenyang Li, Jiang Zhong, <strong>Richard He Bai</strong>, Junnan Zhu"
+  venue: "ACL 2026"
+  links:
+    - label: pdf
+      url: "https://openreview.net/forum?id=VFCUlpdqCG"
+
+- date: "2026"
+  category: paper
+  title: "Closing the Gap Between Text and Speech Understanding in LLMs"
+  authors: "Santiago Cuervo, Skyler Seto, Maureen de Seyssel, <strong>He Bai</strong>, Zijin Gu, Tatiana Likhomanenko, Navdeep Jaitly, Zakaria Aldeneh"
+  venue: "ICLR 2026"
 
 - date: "2025"
   category: paper
@@ -77,9 +77,17 @@
 
 - date: "2024"
   category: paper
+  title: "Construction of Paired Knowledge Graph-Text Datasets Informed by Cyclic Evaluation"
+  authors: "Ali Mousavi*, Xin Zhan*, <strong>He Bai*</strong>, Peng Shi, Theo Rekatsinas, Benjamin Han, Yunyao Li, Jeff Pound, Josh Susskind, Natalie Schluter, Ihab Ilyas, Navdeep Jaitly"
+  venue: "COLING 2024"
+  note: "*equal contribution"
+
+- date: "2024"
+  category: paper
   title: "KGLens: Towards Efficient and Effective Knowledge Probing of Large Language Models with Knowledge Graphs"
-  authors: "Shangshang Zheng, <strong>He Bai</strong>, Yizhe Zhang, Yi Su, Xiaochuan Niu, Navdeep Jaitly"
+  authors: "Shangshang Zheng*, <strong>He Bai*</strong>, Yizhe Zhang, Yi Su, Xiaochuan Niu, Navdeep Jaitly"
   venue: "ACL 2024 Workshop (KnowLLM)"
+  note: "*equal contribution"
   links:
     - label: pdf
       url: "https://arxiv.org/abs/2312.11539"
@@ -88,11 +96,11 @@
   category: service
   title: "Workshop Organizer: Embodied AI Workshop at CVPR 2024"
 
-- date: "2023-02"
+- date: "2023"
   category: career
   title: "Joined Apple MLR as Machine Learning Researcher"
 
-- date: "2023-01"
+- date: "2023"
   category: career
   title: "PhD Defense at the University of Waterloo"
   description: "Dissertation: Novel Methods for Natural Language Modeling and Pretraining"
