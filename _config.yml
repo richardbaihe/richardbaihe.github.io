@@ -1,13 +1,13 @@
 title: Richard's website
 author: Richard He Bai
-description: Academic homepage - ML Researcher working on RAG and data-efficient LLM training
+description: Academic homepage - ML Researcher focused on efficient and scalable sequence modeling
 baseurl: ""
 url: "https://richardbaihe.github.io"
 markdown: kramdown
 
 # Profile
 avatar: /assets/img/avatar.jpeg
-bio: "Research Scientist at Apple MLR, working on building more capable LLMs through retrieval augmentation and scalable data curation."
+bio: "Research Scientist at Apple MLR, focused on building efficient and scalable foundation models for sequence modeling, with methods that improve applications across various domains including code generation, retrieval-augmented generation, recommendation, and cross-modal understanding."
 education: >-
   I completed my PhD in Computer Science at the University of Waterloo,
   with a dissertation titled
