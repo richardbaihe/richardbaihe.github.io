@@ -102,7 +102,7 @@ img {
   content: "";
   position: absolute;
   left: calc(2rem + 5.5rem);
-  top: 0;
+  top: 4rem;
   bottom: 0;
   width: 2px;
   background: #e5e7eb;
@@ -203,6 +203,78 @@ img {
   font-size: 1.3rem;
   color: #2563eb;
   margin-right: 0.6rem;
+}
+
+.timeline-links a.github-stars img {
+  vertical-align: middle;
+  height: 18px;
+}
+
+/* Selected Work */
+.selected {
+  max-width: 700px;
+  margin: 1rem auto 0;
+  padding: 0 2rem;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #111;
+  margin: 0 0 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.theme {
+  margin-bottom: 1.6rem;
+}
+
+.theme-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #111;
+  margin: 0.8rem 0 0.2rem;
+}
+
+.theme-desc {
+  font-size: 1.3rem;
+  color: #777;
+  margin: 0 0 0.4rem;
+  font-style: italic;
+}
+
+.theme-papers {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.theme-papers li {
+  font-size: 1.4rem;
+  color: #444;
+  padding: 0.15rem 0;
+  line-height: 1.5;
+}
+
+.theme-venue {
+  font-size: 1.2rem;
+  color: #888;
+  font-style: italic;
+}
+
+.theme-highlight {
+  color: inherit;
+}
+
+.theme-highlight:hover {
+  text-decoration: underline;
+}
+
+.theme-papers a.github-stars img {
+  vertical-align: middle;
+  height: 16px;
+  margin-left: 0.3rem;
 }
 
 /* Footer */

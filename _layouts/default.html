@@ -26,7 +26,40 @@
     <p class="profile-education">{{ site.education }}</p>
   </section>
 
+  <section class="selected">
+    <h2 class="section-title">Selected Work</h2>
+    {% for theme in site.data.selected %}
+      <div class="theme">
+        <h3 class="theme-title">{{ theme.theme }}</h3>
+        {% if theme.description %}
+          <p class="theme-desc">{{ theme.description }}</p>
+        {% endif %}
+        <ul class="theme-papers">
+          {% for paper in theme.papers %}
+            <li>
+              {% if paper.url %}
+                <a href="{{ paper.url }}" target="_blank">{{ paper.title }}</a>
+              {% else %}
+                {{ paper.title }}
+              {% endif %}
+              {% if paper.venue %}<span class="theme-venue"> — {{ paper.venue }}</span>{% endif %}
+              {% if paper.repo %}
+                <a href="https://github.com/{{ paper.repo }}" target="_blank" class="github-stars" aria-label="GitHub stars">
+                  <img src="https://img.shields.io/github/stars/{{ paper.repo }}?style=social" alt="stars">
+                </a>
+              {% endif %}
+              {% if paper.highlight %}
+                <span class="theme-venue"> — <a href="{{ paper.highlight.url }}" target="_blank" class="theme-highlight">{{ paper.highlight.text }}</a></span>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
+  </section>
+
   <section class="timeline">
+    <h2 class="section-title">News</h2>
     {% for entry in site.data.timeline %}
     <div class="timeline-entry">
       <div class="timeline-date">{{ entry.date }}</div>
@@ -56,6 +89,12 @@
           <p class="timeline-links">
             {% for link in entry.links %}
               <a href="{{ link.url }}" target="_blank">[{{ link.label }}]</a>
+              {% if link.url contains 'github.com/' %}
+                {% assign repo_path = link.url | remove: 'https://github.com/' | remove: 'http://github.com/' %}
+                <a href="{{ link.url }}" target="_blank" class="github-stars" aria-label="GitHub stars">
+                  <img src="https://img.shields.io/github/stars/{{ repo_path }}?style=social" alt="stars">
+                </a>
+              {% endif %}
             {% endfor %}
           </p>
         {% endif %}

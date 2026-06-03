@@ -1,5 +1,14 @@
 - date: "2026"
   category: paper
+  title: "Primal Generation, Dual Judgment: Self-Training from Test-Time Scaling"
+  authors: "Yizhu Jiao, Ruixiang Zhang, <strong>Richard He Bai</strong>, Jiawei Han, Ronan Collobert, Yizhe Zhang"
+  venue: "Preprint, 2026"
+  links:
+    - label: pdf
+      url: "https://arxiv.org/abs/2605.11299"
+
+- date: "2026"
+  category: paper
   title: "Embarrassingly Simple Self-Distillation Improves Code Generation"
   authors: "Ruixiang Zhang*, <strong>Richard He Bai*</strong>, Huangjie Zheng*, Navdeep Jaitly, Ronan Collobert, Yizhe Zhang*"
   venue: "Preprint, 2026"
@@ -7,6 +16,8 @@
   links:
     - label: pdf
       url: "https://arxiv.org/abs/2604.01193"
+    - label: code
+      url: "https://github.com/apple/ml-ssd"
 
 - date: "2026"
   category: paper
@@ -16,6 +27,8 @@
   links:
     - label: pdf
       url: "https://arxiv.org/abs/2511.18659"
+    - label: code
+      url: "https://github.com/apple/ml-clara"
 
 - date: "2026"
   category: paper
@@ -31,6 +44,17 @@
   title: "Closing the Gap Between Text and Speech Understanding in LLMs"
   authors: "Santiago Cuervo, Skyler Seto, Maureen de Seyssel, <strong>Richard He Bai</strong>, Zijin Gu, Tatiana Likhomanenko, Navdeep Jaitly, Zakaria Aldeneh"
   venue: "ICLR 2026"
+  links:
+    - label: pdf
+      url: "https://arxiv.org/abs/2510.13632"
+
+- date: "2026"
+  category: service
+  title: "Area Chair at NeurIPS 2026"
+
+- date: "2026"
+  category: service
+  title: "Workshop Organizer: WideningNLP at EMNLP 2026"
 
 - date: "2025"
   category: paper
@@ -38,6 +62,18 @@
   authors: "Tatiana Likhomanenko*, Luke Carlson*, <strong>Richard He Bai*</strong>, Zijin Gu*, Han Tran*, Zakaria Aldeneh*, Yizhe Zhang, Ruixiang Zhang, Huangjie Zheng, Navdeep Jaitly"
   venue: "IEEE ASRU 2025 (Best Demo)"
   note: "*equal contribution"
+  links:
+    - label: pdf
+      url: "https://arxiv.org/abs/2509.00078"
+
+- date: "2025"
+  category: paper
+  title: "SpeakStream: Streaming Text-to-Speech with Interleaved Data"
+  authors: "<strong>Richard He Bai</strong>, Zijin Gu, Tatiana Likhomanenko, Navdeep Jaitly"
+  venue: "ICML 2026"
+  links:
+    - label: pdf
+      url: "https://arxiv.org/abs/2505.19206"
 
 - date: "2025"
   category: service
@@ -56,6 +92,9 @@
   title: "Rephrasing the Web: A Recipe for Compute and Data-Efficient Language Modeling"
   authors: "Pratyush Maini, Skyler Seto, <strong>Richard He Bai</strong>, David Grangier, Yizhe Zhang, Navdeep Jaitly"
   venue: "ACL 2024"
+  links:
+    - label: pdf
+      url: "https://arxiv.org/abs/2401.16380"
 
 - date: "2024"
   category: paper
@@ -81,6 +120,9 @@
   authors: "Ali Mousavi*, Xin Zhan*, <strong>Richard He Bai*</strong>, Peng Shi, Theo Rekatsinas, Benjamin Han, Yunyao Li, Jeff Pound, Josh Susskind, Natalie Schluter, Ihab Ilyas, Navdeep Jaitly"
   venue: "COLING 2024"
   note: "*equal contribution"
+  links:
+    - label: pdf
+      url: "https://aclanthology.org/2024.lrec-main.335/"
 
 - date: "2024"
   category: paper
@@ -91,6 +133,15 @@
   links:
     - label: pdf
       url: "https://arxiv.org/abs/2312.11539"
+
+- date: "2024"
+  category: paper
+  title: "dMel: Speech Tokenization made Simple"
+  authors: "<strong>Richard He Bai</strong>, Tatiana Likhomanenko, Ruixiang Zhang, Zijin Gu, Zakaria Aldeneh, Navdeep Jaitly"
+  venue: "Preprint, 2024"
+  links:
+    - label: pdf
+      url: "https://arxiv.org/abs/2407.15835"
 
 - date: "2024"
   category: service
