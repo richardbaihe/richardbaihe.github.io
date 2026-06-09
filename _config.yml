@@ -7,7 +7,7 @@ markdown: kramdown
 
 # Profile
 avatar: /assets/img/avatar.jpeg
-bio: "Research Scientist at Apple MLR, focused on building efficient and scalable foundation models for sequence modeling, with methods that improve applications across various domains including real-time chat agents, LLM post-training, and knowledge & retrieval grounded LLMs."
+bio: "Research Scientist at Apple MLR, building efficient and scalable foundation models for sequence modeling — powering real-time audio LLMs, LLM post-training, and knowledge & retrieval grounded LLMs."
 education: >-
   I completed my PhD in Computer Science at the University of Waterloo,
   with a dissertation titled
