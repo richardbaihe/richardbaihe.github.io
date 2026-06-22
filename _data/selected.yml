@@ -1,5 +1,5 @@
-- theme: "Real-time Chat Agents"
-  description: "Building toward fast, streamable speech for low-latency voice agents."
+- theme: "Streamable — Real-time Speech & Conversational Agents"
+  description: "Low-latency, streamable foundation methods for speech and voice agents."
   papers:
     - title: "dMel: Speech Tokenization made Simple"
       url: "https://arxiv.org/abs/2407.15835"
@@ -13,8 +13,8 @@
       venue: "IEEE ASRU 2025 (Best Demo)"
       url: "https://arxiv.org/abs/2509.00078"
 
-- theme: "LLM Post-training"
-  description: "Self-improvement, test-time scaling, and cross-modal alignment."
+- theme: "Capable — Post-training for Reasoning & Code"
+  description: "Self-distillation, test-time scaling, and cross-modal alignment to push LLM capability."
   papers:
     - title: "Embarrassingly Simple Self-Distillation Improves Code Generation"
       venue: "Preprint, 2026"
@@ -27,8 +27,8 @@
       venue: "ICLR 2026"
       url: "https://arxiv.org/abs/2510.13632"
 
-- theme: "Knowledge & Retrieval-Grounded LLMs"
-  description: "Grounding LLM generation in external knowledge and curated data."
+- theme: "Grounded — Retrieval- & Knowledge-Grounded LLMs"
+  description: "Grounding LLM generation in external knowledge, retrieval, and curated data."
   papers:
     - title: "CLaRa: Bridging Retrieval and Generation with Continuous Latent Reasoning"
       venue: "Preprint, 2025"

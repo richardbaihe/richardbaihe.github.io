@@ -23,6 +23,14 @@
       <a href="{{ site.social.twitter }}" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
     </div>
     <p class="profile-bio" itemprop="description">{{ site.bio }}</p>
+    {% if site.expertise %}
+    <div class="profile-expertise">
+      <span class="profile-expertise-label">Expertise</span>
+      {% for item in site.expertise %}
+        <span class="profile-expertise-chip">{{ item }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
     <p class="profile-education">{{ site.education }}</p>
   </section>
 
@@ -60,6 +68,7 @@
 
   <section class="timeline">
     <h2 class="section-title">News</h2>
+    <div class="timeline-scroll">
     {% for entry in site.data.timeline %}
     <div class="timeline-entry">
       <div class="timeline-date">{{ entry.date }}</div>
@@ -101,6 +110,7 @@
       </div>
     </div>
     {% endfor %}
+    </div>
   </section>
 
   <footer class="site-footer">
