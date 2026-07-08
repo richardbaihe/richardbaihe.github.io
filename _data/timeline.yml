@@ -23,7 +23,7 @@
   category: paper
   title: "CLaRa: Bridging Retrieval and Generation with Continuous Latent Reasoning"
   authors: "Jie He, <strong>Richard He Bai</strong>, Sinead Williamson, Jeff Z. Pan, Navdeep Jaitly, Yizhe Zhang"
-  venue: "Preprint, 2025"
+  venue: "COLM 2026"
   links:
     - label: pdf
       url: "https://arxiv.org/abs/2511.18659"

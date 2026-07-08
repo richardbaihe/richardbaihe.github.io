@@ -31,7 +31,7 @@
   description: "Grounding LLM generation in external knowledge, retrieval, and curated data."
   papers:
     - title: "CLaRa: Bridging Retrieval and Generation with Continuous Latent Reasoning"
-      venue: "Preprint, 2025"
+      venue: "COLM 2026"
       url: "https://arxiv.org/abs/2511.18659"
       repo: "apple/ml-clara"
     - title: "KGLens: Towards Efficient and Effective Knowledge Probing of LLMs with Knowledge Graphs"
