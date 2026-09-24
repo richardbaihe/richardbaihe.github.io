@@ -2,10 +2,19 @@
   category: paper
   title: "Primal Generation, Dual Judgment: Self-Training from Test-Time Scaling"
   authors: "Yizhu Jiao, Ruixiang Zhang, <strong>Richard He Bai</strong>, Jiawei Han, Ronan Collobert, Yizhe Zhang"
-  venue: "Preprint, 2026"
+  venue: "NeurIPS 2026"
   links:
     - label: pdf
       url: "https://arxiv.org/abs/2605.11299"
+
+- date: "2026"
+  category: paper
+  title: "TRACER: Verifiable Generative Provenance for Multimodal Tool-Using Agents"
+  authors: "Bihui Yu, Caijun Jia, Jing Chi, Xiaohan Liu, Yining Wang, <strong>Richard He Bai</strong>, Yuchen Liu, Jingxuan Wei, Junnan Zhu"
+  venue: "NeurIPS 2026"
+  links:
+    - label: pdf
+      url: "https://arxiv.org/abs/2605.09934"
 
 - date: "2026"
   category: paper
