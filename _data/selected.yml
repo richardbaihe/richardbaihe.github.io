@@ -21,7 +21,7 @@
       url: "https://arxiv.org/abs/2604.01193"
       repo: "apple/ml-ssd"
     - title: "Primal Generation, Dual Judgment: Self-Training from Test-Time Scaling"
-      venue: "Preprint, 2026"
+      venue: "NeurIPS 2026"
       url: "https://arxiv.org/abs/2605.11299"
     - title: "Closing the Gap Between Text and Speech Understanding in LLMs"
       venue: "ICLR 2026"
