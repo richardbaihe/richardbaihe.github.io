@@ -1,16 +1,17 @@
 title: Richard's website
 author: Richard He Bai
-description: Academic homepage - ML Researcher building foundation methods for LLMs that are streamable, capable, and grounded
+description: Academic homepage - ML Researcher building efficient, simple methods for speech models, code post-training, and self-improving agents
 baseurl: ""
 url: "https://richardbaihe.github.io"
 markdown: kramdown
 
 # Profile
 avatar: /assets/img/avatar.jpeg
-bio: "Research Scientist at Apple MLR, building foundation methods for LLMs that are <em>streamable</em>, <em>capable</em>, and <em>grounded</em> — across speech, code, and knowledge."
+bio: "Research Scientist at Apple MLR. I build efficient, simple methods for LLMs across modalities: low-latency speech models (dMel, SpeakStream) and post-training for code and agents (SSD, DuST, RSI-Inference Bench)."
 expertise:
-  - Model Architecture
-  - Post-training
+  - Speech & Streaming Models
+  - Post-training for Code
+  - Self-Improving Agents
   - Synthetic Data
 education: >-
   I completed my PhD in Computer Science at the University of Waterloo,

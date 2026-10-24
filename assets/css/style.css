@@ -220,6 +220,7 @@ img {
 .badge-career { background-color: #059669; }
 .badge-award { background-color: #d97706; }
 .badge-service { background-color: #7c3aed; }
+.badge-release { background-color: #db2777; }
 
 /* Timeline content typography */
 .timeline-title {
@@ -338,6 +339,110 @@ img {
   margin-left: 0.3rem;
 }
 
+/* Featured */
+.featured {
+  max-width: 700px;
+  margin: 0 auto 2.4rem;
+  padding: 0 2rem;
+}
+
+.featured-card {
+  padding: 1.6rem 2rem 2rem;
+  border: 1px solid #fbcfe8;
+  border-left: 4px solid #db2777;
+  border-radius: 8px;
+  background: #fdf2f8;
+}
+
+.featured-title {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.35;
+  margin: 0.4rem 0 0.6rem;
+}
+
+.featured-title a {
+  color: #111;
+}
+
+.featured-title a:hover {
+  color: #be185d;
+}
+
+.featured-authors {
+  font-size: 1.4rem;
+  color: #555;
+  margin: 0.2rem 0;
+  line-height: 1.5;
+}
+
+.featured-note {
+  font-size: 1.2rem;
+  color: #666;
+  margin: 0.2rem 0;
+}
+
+.featured-desc {
+  font-size: 1.5rem;
+  color: #444;
+  margin: 1.2rem 0 0;
+}
+
+.featured-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 1.2rem 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 1.6rem 0 0;
+}
+
+.featured-stat-value {
+  display: block;
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #be185d;
+}
+
+.featured-stat-label {
+  display: block;
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.4;
+  margin-top: 0.2rem;
+}
+
+.featured-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin: 1.8rem 0 0;
+}
+
+.featured-links a {
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 0.6rem 1.6rem;
+  color: #db2777;
+  background: #fff;
+  border: 1px solid #db2777;
+  border-radius: 6px;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+}
+
+.featured-links a:first-child {
+  color: #fff;
+  background: #db2777;
+}
+
+.featured-links a:hover {
+  color: #fff;
+  background: #be185d;
+  border-color: #be185d;
+  text-decoration: none;
+}
+
 /* Footer */
 .site-footer {
   text-align: center;
@@ -404,6 +509,14 @@ img {
     font-size: 2rem;
   }
 
+  .featured-card {
+    padding: 1.4rem 1.4rem 1.6rem;
+  }
+
+  .featured-title {
+    font-size: 1.8rem;
+  }
+
   .timeline-scroll {
     padding: 1.2rem 1.2rem 0.4rem;
   }
@@ -445,6 +558,10 @@ img {
 
 .profile {
   animation: fadeIn 0.4s ease-out;
+}
+
+.featured {
+  animation: fadeIn 0.45s ease-out 0.1s both;
 }
 
 .timeline {

@@ -1,4 +1,20 @@
 - date: "2026"
+  category: award
+  title: "Top Area Chair at NeurIPS 2026"
+
+- date: "2026"
+  category: release
+  title: "RSI-Inference: A Long-Horizon Benchmark for Self-Improving Inference Systems"
+  authors: "Junteng Liu*, <strong>Richard He Bai*</strong>, Huangjie Zheng*, Yizhe Zhang, Ruixiang Zhang†"
+  description: "Coding agents improve the vLLM and SGLang inference engines across 37 tasks: day-0 model support, optimization, and bug fixing."
+  note: "*core contributors, †project lead"
+  links:
+    - label: leaderboard
+      url: "https://rsi-inference.com"
+    - label: code
+      url: "https://github.com/apple-aiml-research/ml-rsi-inference-bench"
+
+- date: "2026"
   category: paper
   title: "Primal Generation, Dual Judgment: Self-Training from Test-Time Scaling"
   authors: "Yizhu Jiao, Ruixiang Zhang, <strong>Richard He Bai</strong>, Jiawei Han, Ronan Collobert, Yizhe Zhang"

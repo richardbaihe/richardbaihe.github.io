@@ -1,0 +1,18 @@
+- label: "New Release"
+  title: "RSI-Inference: A Long-Horizon Benchmark for Self-Improving Inference Systems"
+  url: "https://rsi-inference.com"
+  authors: "Junteng Liu*, <strong>Richard He Bai*</strong>, Huangjie Zheng*, Yizhe Zhang, Ruixiang Zhang†"
+  note: "*core contributors, †project lead"
+  description: "A long-horizon benchmark for coding agents that improve the inference stack of LLMs. An agent works on a real vLLM or SGLang engine, on real GPUs, across a model's life — day-0 support, post-launch optimization, and regression fixes — and is graded by running what it built."
+  stats:
+    - value: "37"
+      label: "tasks: 10 day-0, 20 optimization, 7 bug fix"
+    - value: "2"
+      label: "engines: vLLM and SGLang"
+    - value: "8 h"
+      label: "max per run, on 1–8 GPUs"
+  links:
+    - label: Leaderboard
+      url: "https://rsi-inference.com"
+    - label: Code
+      url: "https://github.com/apple-aiml-research/ml-rsi-inference-bench"

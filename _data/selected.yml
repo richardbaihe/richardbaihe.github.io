@@ -1,4 +1,19 @@
-- theme: "Streamable — Real-time Speech & Conversational Agents"
+- theme: "Capable — Post-training & Self-Improving Agents for Code"
+  description: "Self-distillation and self-training for code, plus verifiable benchmarks for agents that improve real systems."
+  papers:
+    - title: "Embarrassingly Simple Self-Distillation Improves Code Generation"
+      venue: "Preprint, 2026"
+      url: "https://arxiv.org/abs/2604.01193"
+      repo: "apple/ml-ssd"
+    - title: "Primal Generation, Dual Judgment: Self-Training from Test-Time Scaling"
+      venue: "NeurIPS 2026"
+      url: "https://arxiv.org/abs/2605.11299"
+    - title: "RSI-Inference: A Long-Horizon Benchmark for Self-Improving Inference Systems"
+      venue: "Apple, 2026"
+      url: "https://github.com/apple-aiml-research/ml-rsi-inference-bench"
+      repo: "apple-aiml-research/ml-rsi-inference-bench"
+
+- theme: "Streamable — Speech & Conversational Agents"
   description: "Low-latency, streamable foundation methods for speech and voice agents."
   papers:
     - title: "dMel: Speech Tokenization made Simple"
@@ -12,17 +27,6 @@
     - title: "ChipChat: Low-Latency Cascaded Conversational Agent in MLX"
       venue: "IEEE ASRU 2025 (Best Demo)"
       url: "https://arxiv.org/abs/2509.00078"
-
-- theme: "Capable — Post-training for Reasoning & Code"
-  description: "Self-distillation, test-time scaling, and cross-modal alignment to push LLM capability."
-  papers:
-    - title: "Embarrassingly Simple Self-Distillation Improves Code Generation"
-      venue: "Preprint, 2026"
-      url: "https://arxiv.org/abs/2604.01193"
-      repo: "apple/ml-ssd"
-    - title: "Primal Generation, Dual Judgment: Self-Training from Test-Time Scaling"
-      venue: "NeurIPS 2026"
-      url: "https://arxiv.org/abs/2605.11299"
     - title: "Closing the Gap Between Text and Speech Understanding in LLMs"
       venue: "ICLR 2026"
       url: "https://arxiv.org/abs/2510.13632"

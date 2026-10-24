@@ -34,6 +34,44 @@
     <p class="profile-education">{{ site.education }}</p>
   </section>
 
+  {% if site.data.featured.size > 0 %}
+  <section class="featured">
+    <h2 class="section-title">Featured</h2>
+    {% for item in site.data.featured %}
+      <div class="featured-card">
+        <span class="badge badge-release">{{ item.label }}</span>
+        <h3 class="featured-title"><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></h3>
+        {% if item.authors %}
+          <p class="featured-authors">{{ item.authors }}</p>
+        {% endif %}
+        {% if item.note %}
+          <p class="featured-note">{{ item.note }}</p>
+        {% endif %}
+        {% if item.description %}
+          <p class="featured-desc">{{ item.description }}</p>
+        {% endif %}
+        {% if item.stats %}
+          <ul class="featured-stats">
+            {% for stat in item.stats %}
+              <li>
+                <span class="featured-stat-value">{{ stat.value }}</span>
+                <span class="featured-stat-label">{{ stat.label }}</span>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+        {% if item.links %}
+          <p class="featured-links">
+            {% for link in item.links %}
+              <a href="{{ link.url }}" target="_blank">{{ link.label }}</a>
+            {% endfor %}
+          </p>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </section>
+  {% endif %}
+
   <section class="selected">
     <h2 class="section-title">Selected Work</h2>
     {% for theme in site.data.selected %}
@@ -79,6 +117,7 @@
             {% when 'career' %}Career
             {% when 'award' %}Award
             {% when 'service' %}Service
+            {% when 'release' %}Release
           {% endcase %}
         </span>
         <h3 class="timeline-title">{{ entry.title }}</h3>
@@ -98,8 +137,9 @@
           <p class="timeline-links">
             {% for link in entry.links %}
               <a href="{{ link.url }}" target="_blank">[{{ link.label }}]</a>
-              {% if link.url contains 'github.com/' %}
-                {% assign repo_path = link.url | remove: 'https://github.com/' | remove: 'http://github.com/' %}
+              {% assign url_parts = link.url | split: '/' %}
+              {% if url_parts[2] == 'github.com' %}
+                {% assign repo_path = url_parts[3] | append: '/' | append: url_parts[4] %}
                 <a href="{{ link.url }}" target="_blank" class="github-stars" aria-label="GitHub stars">
                   <img src="https://img.shields.io/github/stars/{{ repo_path }}?style=social" alt="stars">
                 </a>
