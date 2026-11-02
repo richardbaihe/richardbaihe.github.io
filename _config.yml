@@ -1,6 +1,6 @@
 title: Richard's website
 author: Richard He Bai
-description: Academic homepage - Apple MLR Research Scientist working on coding post-training and self-improving agents, with prior work in speech representations and streaming generation
+description: Academic homepage - Apple MLR Research Scientist working on self-improving LLMs, with prior work in speech representations and streaming generation
 baseurl: ""
 url: "https://richardbaihe.github.io"
 markdown: kramdown
@@ -8,7 +8,7 @@ markdown: kramdown
 # Profile
 avatar: /assets/img/avatar.jpeg
 bio: >-
-  I’m a Research Scientist at Apple MLR working on coding post-training and self-improving agents,
+  I’m a Research Scientist at Apple MLR working on self-improving LLMs,
   including SSD, DuST, and RSI-Inference Bench. Previously, I developed speech representations
   and streaming generation methods, including dMel and SpeakStream.
 research_approach: >-
