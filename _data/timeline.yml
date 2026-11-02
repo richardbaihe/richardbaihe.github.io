@@ -1,10 +1,8 @@
 - date: "2026"
-  category: award
-  title: "Top Area Chair at NeurIPS 2026"
-
-- date: "2026"
   category: release
   title: "RSI-Inference: A Long-Horizon Benchmark for Self-Improving Inference Systems"
+  featured_news: true
+  summary: 'Released <a href="https://rsi-inference.com">RSI-Inference</a>, a benchmark for coding agents that improve real LLM inference systems.'
   authors: "Junteng Liu*, <strong>Richard He Bai*</strong>, Huangjie Zheng*, Yizhe Zhang, Ruixiang Zhang†"
   description: "Coding agents improve the vLLM and SGLang inference engines across 37 tasks: day-0 model support, optimization, and bug fixing."
   note: "*core contributors, †project lead"
@@ -15,26 +13,28 @@
       url: "https://github.com/apple-aiml-research/ml-rsi-inference-bench"
 
 - date: "2026"
-  category: paper
-  title: "Primal Generation, Dual Judgment: Self-Training from Test-Time Scaling"
-  authors: "Yizhu Jiao, Ruixiang Zhang, <strong>Richard He Bai</strong>, Jiawei Han, Ronan Collobert, Yizhe Zhang"
-  venue: "NeurIPS 2026"
-  links:
-    - label: pdf
-      url: "https://arxiv.org/abs/2605.11299"
+  category: award
+  title: "Top Area Chair at NeurIPS 2026"
+  featured_news: true
+  summary: 'Recognized as a <strong>Top Area Chair</strong> at NeurIPS 2026.'
 
 - date: "2026"
   category: paper
-  title: "TRACER: Verifiable Generative Provenance for Multimodal Tool-Using Agents"
-  authors: "Bihui Yu, Caijun Jia, Jing Chi, Xiaohan Liu, Yining Wang, <strong>Richard He Bai</strong>, Yuchen Liu, Jingxuan Wei, Junnan Zhu"
+  title: "Two papers accepted to NeurIPS 2026: DuST and TRACER"
+  featured_news: true
+  summary: 'Two papers accepted to <strong>NeurIPS 2026</strong>: <a href="https://arxiv.org/abs/2605.11299">DuST</a> on self-training for code from test-time scaling, and <a href="https://arxiv.org/abs/2605.09934">TRACER</a> on verifiable provenance for multimodal tool-using agents.'
   venue: "NeurIPS 2026"
   links:
-    - label: pdf
+    - label: DuST
+      url: "https://arxiv.org/abs/2605.11299"
+    - label: TRACER
       url: "https://arxiv.org/abs/2605.09934"
 
 - date: "2026"
   category: paper
   title: "Embarrassingly Simple Self-Distillation Improves Code Generation"
+  featured_news: true
+  summary: 'Our <a href="https://arxiv.org/abs/2604.01193">SSD</a> work on <strong>simple self-distillation for code generation</strong> reached <a href="https://news.ycombinator.com/item?id=47637757"><strong>#1 on Hacker News</strong></a>.'
   authors: "Ruixiang Zhang*, <strong>Richard He Bai*</strong>, Huangjie Zheng*, Navdeep Jaitly, Ronan Collobert, Yizhe Zhang*"
   venue: "Preprint, 2026"
   note: "*equal contribution"
@@ -43,6 +43,15 @@
       url: "https://arxiv.org/abs/2604.01193"
     - label: code
       url: "https://github.com/apple/ml-ssd"
+
+- date: "2026"
+  category: release
+  title: "dMel in Thinking Machines’ Interaction Models"
+  featured_news: true
+  summary: '<a href="https://arxiv.org/abs/2407.15835">dMel</a> was <strong>featured in <a href="https://thinkingmachines.ai/blog/interaction-models/">Thinking Machines’ Interaction Models</a></strong> as the audio input representation.'
+  links:
+    - label: article
+      url: "https://thinkingmachines.ai/blog/interaction-models/"
 
 - date: "2026"
   category: paper
@@ -84,6 +93,8 @@
 - date: "2025"
   category: paper
   title: "ChipChat: Low-Latency Cascaded Conversational Agent in MLX"
+  featured_news: true
+  summary: '<a href="https://arxiv.org/abs/2509.00078">ChipChat</a>, our <strong>low-latency on-device voice agent</strong>, won the <strong>Best Demo Paper Award</strong> at IEEE ASRU 2025.'
   authors: "Tatiana Likhomanenko*, Luke Carlson*, <strong>Richard He Bai*</strong>, Zijin Gu*, Han Tran*, Zakaria Aldeneh*, Yizhe Zhang, Ruixiang Zhang, Huangjie Zheng, Navdeep Jaitly"
   venue: "IEEE ASRU 2025 (Best Demo)"
   note: "*equal contribution"
@@ -216,6 +227,7 @@
 - date: "2022"
   category: award
   title: "Outstanding Reviewer Award at ICML 2022"
+  summary: 'Received the <strong>Outstanding Reviewer Award</strong> at ICML 2022.'
 
 - date: "2024"
   category: service

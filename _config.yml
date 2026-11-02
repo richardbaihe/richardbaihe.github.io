@@ -13,19 +13,10 @@ bio: >-
   and streaming generation methods, including dMel and SpeakStream.
 research_approach: >-
   Across these areas, I look for simple methods that address fundamental bottlenecks in how models learn and operate.
-expertise:
-  - Post-training for Code
-  - Self-Improving Agents
-  - Speech & Streaming Models
-  - Synthetic Data
 education: >-
-  I completed my PhD in Computer Science at the University of Waterloo,
-  with a dissertation titled
-  "<a href='https://uwspace.uwaterloo.ca/items/7f8262f0-325b-4623-8996-edcd8fdbd780'>Novel Methods for Natural Language Modeling and Pretraining</a>",
-  under the supervision of Professor
-  <a href='https://scholar.google.ca/citations?user=oGgPXFEAAAAJ&hl=en'>Ming Li</a>.
-  Prior to my doctoral studies, I obtained a Master's degree from the Chinese Academy of Sciences,
-  where I began my NLP research journey under the mentorship of Professor
+  I received my PhD in Computer Science from <a href='https://uwaterloo.ca'>UWaterloo</a>,
+  advised by <a href='https://scholar.google.ca/citations?user=oGgPXFEAAAAJ&hl=en'>Ming Li</a>,
+  and my Master’s from <a href='https://english.ucas.ac.cn'>UCAS</a>, advised by
   <a href='https://scholar.google.com.hk/citations?user=l8lvKOQAAAAJ&hl=en'>Chengqing Zong</a>.
 
 # Social links

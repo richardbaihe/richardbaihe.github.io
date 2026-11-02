@@ -1,4 +1,4 @@
-- theme: "Coding & Self-Improvement"
+- theme: "Self Improving LLMs"
   papers:
     - title: "Embarrassingly Simple Self-Distillation Improves Code Generation"
       name: "SSD"
@@ -14,7 +14,7 @@
       url: "https://github.com/apple-aiml-research/ml-rsi-inference-bench"
       repo: "apple-aiml-research/ml-rsi-inference-bench"
 
-- theme: "Speech & Streaming"
+- theme: "Speech Language Models"
   papers:
     - title: "dMel: Speech Tokenization made Simple"
       url: "https://arxiv.org/abs/2407.15835"
@@ -27,12 +27,12 @@
     - title: "ChipChat: Low-Latency Cascaded Conversational Agent in MLX"
       venue: "IEEE ASRU 2025 (Best Demo)"
       url: "https://arxiv.org/abs/2509.00078"
-
-- theme: "Other Research"
-  papers:
     - title: "Closing the Gap Between Text and Speech Understanding in LLMs"
       venue: "ICLR 2026"
       url: "https://arxiv.org/abs/2510.13632"
+
+- theme: "Other Research"
+  papers:
     - title: "CLaRa: Bridging Retrieval and Generation with Continuous Latent Reasoning"
       venue: "COLM 2026"
       url: "https://arxiv.org/abs/2511.18659"

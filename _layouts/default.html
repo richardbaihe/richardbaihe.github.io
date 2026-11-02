@@ -26,54 +26,41 @@
     {% if site.research_approach %}
     <p class="profile-bio">{{ site.research_approach }}</p>
     {% endif %}
-    {% if site.expertise %}
-    <div class="profile-expertise">
-      <span class="profile-expertise-label">Expertise</span>
-      {% for item in site.expertise %}
-        <span class="profile-expertise-chip">{{ item }}</span>
-      {% endfor %}
-    </div>
-    {% endif %}
     <p class="profile-education">{{ site.education }}</p>
   </section>
 
-  {% if site.data.featured.size > 0 %}
-  <section class="featured">
-    <h2 class="section-title">Featured</h2>
-    {% for item in site.data.featured %}
-      <div class="featured-card">
-        <span class="badge badge-release">{{ item.label }}</span>
-        <h3 class="featured-title"><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></h3>
-        {% if item.authors %}
-          <p class="featured-authors">{{ item.authors }}</p>
+  <section class="news" aria-labelledby="news-title">
+    <h2 class="section-title" id="news-title">News</h2>
+    <ul class="news-list">
+      {% for entry in site.data.timeline %}
+        {% if entry.featured_news %}
+          <li>
+            <span class="news-date">{{ entry.date | escape }}</span>
+            <p class="news-text">{{ entry.summary }}</p>
+          </li>
         {% endif %}
-        {% if item.note %}
-          <p class="featured-note">{{ item.note }}</p>
-        {% endif %}
-        {% if item.description %}
-          <p class="featured-desc">{{ item.description }}</p>
-        {% endif %}
-        {% if item.stats %}
-          <ul class="featured-stats">
-            {% for stat in item.stats %}
-              <li>
-                <span class="featured-stat-value">{{ stat.value }}</span>
-                <span class="featured-stat-label">{{ stat.label }}</span>
-              </li>
-            {% endfor %}
-          </ul>
-        {% endif %}
-        {% if item.links %}
-          <p class="featured-links">
-            {% for link in item.links %}
-              <a href="{{ link.url }}" target="_blank">{{ link.label }}</a>
-            {% endfor %}
-          </p>
-        {% endif %}
-      </div>
-    {% endfor %}
+      {% endfor %}
+    </ul>
+    <details class="news-archive">
+      <summary>More news</summary>
+      <ul class="news-list">
+        {% for entry in site.data.timeline %}
+          {% unless entry.featured_news %}
+            <li>
+              <span class="news-date">{{ entry.date | escape }}</span>
+              <p class="news-text">
+                {% if entry.summary %}
+                  {{ entry.summary }}
+                {% else %}
+                  {% if entry.links.size > 0 %}<a href="{{ entry.links.first.url }}">{{ entry.title | escape }}</a>{% else %}{{ entry.title | escape }}{% endif %}{% if entry.venue %} <span class="news-venue">— {{ entry.venue | escape }}</span>{% endif %}
+                {% endif %}
+              </p>
+            </li>
+          {% endunless %}
+        {% endfor %}
+      </ul>
+    </details>
   </section>
-  {% endif %}
 
   <section class="selected">
     <h2 class="section-title">Selected Work</h2>
@@ -105,55 +92,6 @@
         </ul>
       </div>
     {% endfor %}
-  </section>
-
-  <section class="timeline">
-    <h2 class="section-title">News</h2>
-    <div class="timeline-scroll">
-    {% for entry in site.data.timeline %}
-    <div class="timeline-entry">
-      <div class="timeline-date">{{ entry.date }}</div>
-      <div class="timeline-content">
-        <span class="badge badge-{{ entry.category }}">
-          {% case entry.category %}
-            {% when 'paper' %}New Paper
-            {% when 'career' %}Career
-            {% when 'award' %}Award
-            {% when 'service' %}Service
-            {% when 'release' %}Release
-          {% endcase %}
-        </span>
-        <h3 class="timeline-title">{{ entry.title }}</h3>
-        {% if entry.authors %}
-          <p class="timeline-authors">{{ entry.authors }}</p>
-        {% endif %}
-        {% if entry.venue %}
-          <p class="timeline-venue">{{ entry.venue }}</p>
-        {% endif %}
-        {% if entry.description %}
-          <p class="timeline-desc">{{ entry.description }}</p>
-        {% endif %}
-        {% if entry.note %}
-          <p class="timeline-note">{{ entry.note }}</p>
-        {% endif %}
-        {% if entry.links %}
-          <p class="timeline-links">
-            {% for link in entry.links %}
-              <a href="{{ link.url }}" target="_blank">[{{ link.label }}]</a>
-              {% assign url_parts = link.url | split: '/' %}
-              {% if url_parts[2] == 'github.com' %}
-                {% assign repo_path = url_parts[3] | append: '/' | append: url_parts[4] %}
-                <a href="{{ link.url }}" target="_blank" class="github-stars" aria-label="GitHub stars">
-                  <img src="https://img.shields.io/github/stars/{{ repo_path }}?style=social" alt="stars">
-                </a>
-              {% endif %}
-            {% endfor %}
-          </p>
-        {% endif %}
-      </div>
-    </div>
-    {% endfor %}
-    </div>
   </section>
 
   <footer class="site-footer">
