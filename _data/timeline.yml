@@ -1,4 +1,4 @@
-- date: "2026"
+- date: "Oct 2026"
   category: release
   title: "RSI-Inference: A Long-Horizon Benchmark for Self-Improving Inference Systems"
   featured_news: true
@@ -12,13 +12,13 @@
     - label: code
       url: "https://github.com/apple-aiml-research/ml-rsi-inference-bench"
 
-- date: "2026"
+- date: "Oct 2026"
   category: award
   title: "Top Area Chair at NeurIPS 2026"
   featured_news: true
   summary: 'Recognized as a <strong>Top Area Chair</strong> at NeurIPS 2026.'
 
-- date: "2026"
+- date: "Oct 2026"
   category: paper
   title: "Two papers accepted to NeurIPS 2026: DuST and TRACER"
   featured_news: true
@@ -30,7 +30,16 @@
     - label: TRACER
       url: "https://arxiv.org/abs/2605.09934"
 
-- date: "2026"
+- date: "May 2026"
+  category: release
+  title: "dMel in Thinking Machines’ Interaction Models"
+  featured_news: true
+  summary: '<a href="https://arxiv.org/abs/2407.15835">dMel</a> was <strong>featured in <a href="https://thinkingmachines.ai/blog/interaction-models/">Thinking Machines’ Interaction Models</a></strong> as the audio input representation.'
+  links:
+    - label: article
+      url: "https://thinkingmachines.ai/blog/interaction-models/"
+
+- date: "Apr 2026"
   category: paper
   title: "Embarrassingly Simple Self-Distillation Improves Code Generation"
   featured_news: true
@@ -44,14 +53,17 @@
     - label: code
       url: "https://github.com/apple/ml-ssd"
 
-- date: "2026"
-  category: release
-  title: "dMel in Thinking Machines’ Interaction Models"
+- date: "Dec 2025"
+  category: paper
+  title: "ChipChat: Low-Latency Cascaded Conversational Agent in MLX"
   featured_news: true
-  summary: '<a href="https://arxiv.org/abs/2407.15835">dMel</a> was <strong>featured in <a href="https://thinkingmachines.ai/blog/interaction-models/">Thinking Machines’ Interaction Models</a></strong> as the audio input representation.'
+  summary: '<a href="https://arxiv.org/abs/2509.00078">ChipChat</a>, our <strong>low-latency on-device voice agent</strong>, won the <strong>Best Demo Paper Award</strong> at IEEE ASRU 2025.'
+  authors: "Tatiana Likhomanenko*, Luke Carlson*, <strong>Richard He Bai*</strong>, Zijin Gu*, Han Tran*, Zakaria Aldeneh*, Yizhe Zhang, Ruixiang Zhang, Huangjie Zheng, Navdeep Jaitly"
+  venue: "IEEE ASRU 2025 (Best Demo)"
+  note: "*equal contribution"
   links:
-    - label: article
-      url: "https://thinkingmachines.ai/blog/interaction-models/"
+    - label: pdf
+      url: "https://arxiv.org/abs/2509.00078"
 
 - date: "2026"
   category: paper
@@ -89,18 +101,6 @@
 - date: "2026"
   category: service
   title: "Workshop Organizer: WideningNLP at EMNLP 2026"
-
-- date: "2025"
-  category: paper
-  title: "ChipChat: Low-Latency Cascaded Conversational Agent in MLX"
-  featured_news: true
-  summary: '<a href="https://arxiv.org/abs/2509.00078">ChipChat</a>, our <strong>low-latency on-device voice agent</strong>, won the <strong>Best Demo Paper Award</strong> at IEEE ASRU 2025.'
-  authors: "Tatiana Likhomanenko*, Luke Carlson*, <strong>Richard He Bai*</strong>, Zijin Gu*, Han Tran*, Zakaria Aldeneh*, Yizhe Zhang, Ruixiang Zhang, Huangjie Zheng, Navdeep Jaitly"
-  venue: "IEEE ASRU 2025 (Best Demo)"
-  note: "*equal contribution"
-  links:
-    - label: pdf
-      url: "https://arxiv.org/abs/2509.00078"
 
 - date: "2025"
   category: paper

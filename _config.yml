@@ -8,11 +8,17 @@ markdown: kramdown
 # Profile
 avatar: /assets/img/avatar.jpeg
 bio: >-
-  I’m a Research Scientist at Apple MLR working on self-improving LLMs,
-  including SSD, DuST, and RSI-Inference Bench. Previously, I developed speech representations
-  and streaming generation methods, including dMel and SpeakStream.
+  I’m a Research Scientist at Apple MLR working on self-improving LLMs.
 research_approach: >-
-  Across these areas, I look for simple methods that address fundamental bottlenecks in how models learn and operate.
+  My broader interest is in how models can learn from their own outputs and feedback, and interact with people in real time.
+research_methods: >-
+  I’ve developed methods for data-efficient pretraining
+  (<a href='https://arxiv.org/abs/2401.16380'>corpus rephrasing</a>),
+  LLM post-training (<a href='https://arxiv.org/abs/2604.01193'>self-distillation</a>
+  and <a href='https://arxiv.org/abs/2605.11299'>self-training from test-time scaling</a>),
+  and real-time speech agents (<a href='https://arxiv.org/abs/2407.15835'>speech tokenization</a>,
+  <a href='https://arxiv.org/abs/2505.19206'>streaming speech generation</a>,
+  and <a href='https://arxiv.org/abs/2509.00078'>on-device conversation</a>).
 education: >-
   I received my PhD in Computer Science from <a href='https://uwaterloo.ca'>UWaterloo</a>,
   advised by <a href='https://scholar.google.ca/citations?user=oGgPXFEAAAAJ&hl=en'>Ming Li</a>,

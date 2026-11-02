@@ -103,14 +103,28 @@ img {
   padding: 0;
 }
 
+.news-recent {
+  max-height: 24rem;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+  padding-right: 1rem;
+}
+
+.news-recent:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 3px;
+}
+
 .news-list > li {
   display: grid;
-  grid-template-columns: 5rem minmax(0, 1fr);
+  grid-template-columns: 7rem minmax(0, 1fr);
   gap: 1.6rem;
   padding: 0.55rem 0;
 }
 
 .news-date {
+  white-space: nowrap;
   padding-top: 0.1rem;
   color: #777;
   font-size: 1.3rem;
@@ -270,7 +284,7 @@ img {
   }
 
   .news-list > li {
-    grid-template-columns: 4rem minmax(0, 1fr);
+    grid-template-columns: 6.5rem minmax(0, 1fr);
     gap: 1rem;
   }
 
